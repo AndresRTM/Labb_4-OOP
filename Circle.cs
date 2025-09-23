@@ -15,8 +15,12 @@ namespace Labb_4_OOP
             return Radius * 2 * Math.PI;
         }
 
+        public double GetCircumference()
+        {
+            return 2 * Radius * Math.PI;
+        }
         public double Radius { get; set; }
 
         }
     }
-}
+
